@@ -83,7 +83,7 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v4
